@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-three {
+    width: 33.33333%;
+}
+.text-center {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a{
+    color: #fff;
+}
+
+#nav li a {
+    padding: 0 20px;
+    line-height: 46px;
+    
+    text-decoration: none;
+    display: inline-block;
+}
+#nav .subnav li:hover a,
+ #nav > li:hover > a {
+     background-color: #ccc;
+     color: #000;
+ }
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#nav .subnav li {
+    display: inline-block;
+}
+
+#nav .subnav a {
+    color: #000;
+    display: block;
+    line-height: 38px;
+    padding: 0 12px;
+    min-width: 160px;
+}
+#header .nav-arrown-down {
+    font-size: 12px;
+}
+#header .search-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    line-height: 46px;
+    padding: 0 20px;
+}
+#header .search-icon:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+#slider {
+    margin-top: 46px;
+    position: relative;
+    padding-top: 50%;
+    background: url('/assest/img/slider/slider1.jpg') top center / cover no-repeat;
+}
+#slider .text-content {
+    position: absolute;   
+    text-align: center;
+    bottom: 52px;
+    width: 100%;
+    color: #fff;
+}
+#slider .text-dsc {
+    margin-top: 24px;
+    font-size: 15px;
+}
+#slider .text-heading {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#content .content-section {
+    width: 800px;
+    max-width: 100%;
+    padding: 64px 0 112px;
+    padding-left: 16px;
+    padding-right: 16px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+#content .section-subheading {
+    margin-top: 24px;
+    font-style: italic;
+    font-size: 15px;
+    opacity: 0.7;
+
+}
+#content .about-text {
+    margin-top: 24px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+#footer {
+
+}
